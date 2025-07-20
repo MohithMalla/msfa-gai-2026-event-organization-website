@@ -36,13 +36,13 @@ function MainPage() {
       width: '100%',
     },
     heading: {
-      fontSize: '1.5vw',  // responsive size
+      fontSize: '1.5vw',  
       fontWeight: '600',
       marginBottom: '1rem',
       lineHeight: '1.3',
     },
     subheading: {
-      fontSize: '1.5vw',  // responsive size
+      fontSize: '1.5vw',  
       fontWeight: '500',
       marginBottom: '1.5rem',
     },
