@@ -8,10 +8,19 @@ const ContactForm = () => {
             className="relative px-4 sm:px-6 md:px-10 lg:px-20 pb-3"
             style={{ minHeight: "calc(100vh - 64px)", paddingTop: "4rem", paddingBottom: "0" }}
         >
-            <img
+            {/* <img
                 src="/beaches-0212.jpg"
                 alt="Background"
                 className="absolute top-0 left-0 w-full h-full object-cover z-0"
+            /> */}
+
+            <video
+                src="/Beach_bg.mp4"
+                className="absolute top-0 left-0 w-full h-full object-cover z-0"
+                autoPlay
+                loop
+                muted
+                playsInline
             />
 
 

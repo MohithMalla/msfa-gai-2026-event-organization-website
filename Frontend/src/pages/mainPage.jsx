@@ -37,8 +37,7 @@ function MainPage() {
                 ))}
 
 
-
-                <div className="absolute inset-0 grid grid-cols-6 grid-rows-4 z-20">
+                <div key={currentIndex} className="absolute inset-0 grid grid-cols-6 grid-rows-4 z-20">
                     {[...Array(24)].map((_, i) => (
                         <div
                             key={i}
@@ -50,6 +49,7 @@ function MainPage() {
                         />
                     ))}
                 </div>
+
 
                 <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/90 via-black/80 to-black/50" />
 
