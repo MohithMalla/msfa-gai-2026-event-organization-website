@@ -8,16 +8,12 @@ const ContactForm = () => {
             className="relative px-4 sm:px-6 md:px-10 lg:px-20 pb-3"
             style={{ minHeight: "calc(100vh - 64px)", paddingTop: "4rem", paddingBottom: "0" }}
         >
-
-
-            <video
+            <img
+                src="/beaches-0212.jpg"
+                alt="Background"
                 className="absolute top-0 left-0 w-full h-full object-cover z-0"
-                src="/Beach_bg.mp4"
-                autoPlay
-                loop
-                muted
-                playsInline
             />
+
 
             <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/80 via-black/60 to-black/40" />
 
@@ -57,23 +53,23 @@ const ContactForm = () => {
                             <input
                                 type="text"
                                 placeholder="Your Name"
-                                className="w-full border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 text-black"
+                                className="w-full bg-white/10 text-white placeholder-white/70 border border-white/30 p-3 rounded-md backdrop-blur-sm transition duration-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 shadow-md focus:shadow-yellow-500/30"
                             />
                             <input
                                 type="email"
                                 placeholder="Your Email"
-                                className="w-full border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 text-black"
+                                className="w-full bg-white/10 text-white placeholder-white/70 border border-white/30 p-3 rounded-md backdrop-blur-sm transition duration-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 shadow-md focus:shadow-yellow-500/30"
                             />
                         </div>
                         <input
                             type="text"
                             placeholder="Subject"
-                            className="w-full border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 text-black"
+                            className="w-full bg-white/10 text-white placeholder-white/70 border border-white/30 p-3 rounded-md backdrop-blur-sm transition duration-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 shadow-md focus:shadow-yellow-500/30"
                         />
                         <textarea
                             rows="5"
                             placeholder="Message"
-                            className="w-full border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 text-black"
+                            className="w-full bg-white/10 text-white placeholder-white/70 border border-white/30 p-3 rounded-md backdrop-blur-sm transition duration-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 shadow-md focus:shadow-yellow-500/30"
                         ></textarea>
                         <button
                             type="submit"

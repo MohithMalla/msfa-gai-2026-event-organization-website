@@ -31,11 +31,11 @@ function MainPage() {
                         key={index}
                         src={img}
                         alt={`Slide ${index}`}
-                        className={`absolute w-full h-full object-cover transition-opacity duration-1000 ${index === currentIndex ? "opacity-100 z-10" : "opacity-0 z-0"
-                            }`}
-                        style={{ transition: "opacity 1s ease-in-out" }}
+                        className={`absolute w-full h-full object-cover transition-all duration-[2000ms] ease-in-out 
+            ${index === currentIndex ? "opacity-100 scale-105 z-10" : "opacity-0 scale-100 z-0"}`}
                     />
                 ))}
+
 
 
                 <div className="absolute inset-0 grid grid-cols-6 grid-rows-4 z-20">
@@ -68,10 +68,17 @@ function MainPage() {
                     </p>
                 </div>
 
-                <div className="p-3 text-xl absolute bottom-4 right-3 sm:right-8 sm:text-sm bg-transparent text-white font-serif z-30 drop-shadow border-0 rounded">
-                    <strong className="text-2xl">Organised by</strong><br />
-                    Department of Computer Science & Engineering
+                <div className="absolute bottom-6 right-4 sm:bottom-4 sm:right-8 z-30 text-white text-center sm:text-right max-w-[90%] sm:max-w-none">
+                    <div className="backdrop-blur-md px-4 py-2 rounded-md shadow-md">
+                        <p className="text-sm sm:text-base md:text-lg font-semibold leading-snug">
+                            <span className="block text-base sm:text-lg md:text-xl font-bold">
+                                Organised by
+                            </span>
+                            Department of Computer Science & Engineering
+                        </p>
+                    </div>
                 </div>
+
             </div>
         </div>
     );
